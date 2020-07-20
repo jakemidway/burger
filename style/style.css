@@ -111,7 +111,7 @@ header{
 }
 .tel{
 	/*width: 184px;*/
-	min-width: 184px;
+	flex-basis: 184px;
 	font-size: 20px;
 	margin-right: 27px;
 }
