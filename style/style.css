@@ -159,7 +159,9 @@ header{
 /*------------------------------------top slider-------------------------------------------*/
 
 .topslider{
-	
+	position: relative;
+	width: 100%;
+	overflow: hidden;
 }
 .topslider h2{
 	font-size: 100px;
@@ -353,4 +355,77 @@ header{
 }
 .buy:hover{
 	box-shadow:  0px 5px 20px #FECF5A;
+}
+
+.eshe{
+	position: relative;
+	color: #fecf5a;
+	width: 70px;
+	margin: auto;
+	text-align: center;	
+}
+.eshe:after{
+	position: relative;
+	top: -12px;
+	display: block;
+	content: "";
+	height: 30px;
+	width: 30px;
+	margin:auto;
+	transform: rotate(-45deg);
+	border-left: 6px solid #fecf5a;
+	border-bottom: 6px solid #fecf5a;
+	margin-bottom: 40px;
+}
+
+
+
+/*--------------------------------------------advantage---------------------------------------------------*/
+
+
+
+.advantage{
+	padding: 246px 165px 209px;
+	background-image: url(../img/fire.png);
+	background-repeat: no-repeat;
+	background-position: 0px 212px;
+}
+.advantage h2{
+	text-transform: uppercase;
+	display: table-caption;
+	margin-bottom: 116px;
+}
+.advantage .wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+dl{
+	flex-basis: 373px;
+}
+dt{
+	text-transform: uppercase;
+	text-decoration: underline;
+	margin-bottom: 19px;
+}
+dd{
+	font-size: 20px;
+	line-height: 36px;
+}
+
+
+/*----------------------------------------about----------------------------------------------------*/
+.about{
+	padding: 264px 0 252px;
+	background-image: url(../img/true-sheff.png);
+	background-repeat: no-repeat;
+	background-position: 800px 0px;
+
+}
+.about h2{
+	margin-bottom: 116px;	
+}
+
+.about p{
+	margin-bottom: 50px;
+	width: 50%;
 }
