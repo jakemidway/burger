@@ -182,6 +182,7 @@ header{
 	top: -50px;
 	right: -200px;
 	background-image: url(../img/burger.png);
+	background-repeat: no-repeat;
 	width: 1036px;
 	height: 840px;
 }
@@ -380,7 +381,7 @@ header{
 
 
 
-/*--------------------------------------------advantage---------------------------------------------------*/
+/*---------------------------------------advantage---------------------------------------------------*/
 
 
 
@@ -414,18 +415,78 @@ dd{
 
 
 /*----------------------------------------about----------------------------------------------------*/
+
 .about{
+	position: relative;
 	padding: 264px 0 252px;
-	background-image: url(../img/true-sheff.png);
 	background-repeat: no-repeat;
 	background-position: 800px 0px;
-
+}
+.about:after{
+	display: block;
+	content: "";
+	position: absolute;
+	background-image: url(../img/true-sheff.png);
+	top: 100px;
+	right: 0;
+	width: 959px;
+	height: 1279px;
 }
 .about h2{
 	margin-bottom: 116px;	
 }
-
 .about p{
 	margin-bottom: 50px;
 	width: 50%;
+}
+
+
+/*-----------------------------------delivery------------------------------------------------------*/
+
+.delivery{
+	padding: 140px 0 200px;
+}
+.delivery .container{
+	position: relative;
+}
+.delivery h2{
+	color: #fecf5a;
+	text-transform: uppercase;
+	padding-bottom: 100px;
+}
+.delivery p{
+	padding-bottom: 170px;
+}
+.delivery-text{
+	width: 820px;
+}
+.in-price{
+	width: 256px;
+	height: 84px;
+	border-radius: 42px;
+	font-size: 30px;
+	font-family: Myriad Pro, Roboto, Open Sans;
+	color: #fff;
+	background-color: #c53b37; 
+	border: solid 2px #8e8e89;
+	box-shadow: 0px 35px 52px -26px #c53b37;
+	outline: none;
+	text-align: center;
+}
+.delivery-car{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 514px;
+	height: 356px;
+	content: '';
+	background-image: url(../img/truck.png);
+	background-repeat: no-repeat;
+}
+
+
+/*-------------------------------------------------------------footer-------------------*/
+
+footer{
+	padding: 112px 0 160px;
 }
