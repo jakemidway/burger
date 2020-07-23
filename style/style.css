@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 	}
 body{
+	position: relative;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -11,6 +12,7 @@ body{
 	font-size: 30px;
 	min-width: 1560px;
 	background-color: #121111;
+	background-image: url(../img/фон.png);
 	color: #fff;
 }
 ul{
@@ -487,6 +489,45 @@ dd{
 
 /*-------------------------------------------------------------footer-------------------*/
 
-footer{
+.hr{
+	width: 100%;
+	height: 1px;
+	background-color: #b4aba1;
+}
+footer:after{
+	position: absolute;
+	width: 1920px;
+	height: 1434px;
+	background-image: url(../img/back-for-footer.png);
+	background-position: -100% 0;
+}
+.foot-wrap{
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
 	padding: 112px 0 160px;
+}
+.foot-wrap dl{
+	flex: 1 260px;
+	margin-right: 60px;
+}
+.foot-wrap dl:last-child{
+	flex: 3 368px;
+}
+.foot-wrap dl:last-child dt{
+	margin-bottom: 30px;
+}
+.ico{
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	margin-right: 20px;
+}
+.inst{
+	background-image: url(../img/ico-inst.png);
+}
+.face{
+	background-image: url(../img/ico-face.png);
+}.ws{
+	background-image: url(../img/ico-ws.png);
 }
