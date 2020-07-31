@@ -116,7 +116,6 @@ header{
 	padding-left: 36px;
 }
 .tel{
-	width: 200px;
 	flex-basis: 184px;
 	font-size: 20px;
 	margin-right: 27px;
@@ -214,10 +213,11 @@ header{
 }
 .order:hover{
 	border: solid 2px #fff;
+	box-shadow: 0px 40px 55px -26px #c53b37;
 }
 .list{
 	position: absolute;
-	right: 0;
+	right: 200px;
 	bottom: 123px;
 }
 .list button{
@@ -240,7 +240,7 @@ header{
 	border-top: 3px solid #fff;
 	transform: rotate(-45deg);
 }
-.list button:last-child{
+.list .btn-right{
 	background-color: #fecf5a;
 }
 .list button:last-child:after{
@@ -249,10 +249,19 @@ header{
 	border-left: 3px solid #fecf5a;
 	border-top: 3px solid #fecf5a;
 }
+.btn-left:hover{
+	box-shadow: 0px 0px 6px #fff;
+	transform: translate(-1px, -13px); 
+}
+.btn-right:hover{
+	box-shadow: 0px 0px 6px #fecf5a;
+	transform: translate(1px, -13px); 
+}
 .orange60{
 	color: #fecf5a;
 	font-size: 60px;
 }
+
 
 
 /*----------------------------------------------MENU---------------------------------------------------*/
@@ -454,7 +463,7 @@ dd{
 /*-----------------------------------delivery------------------------------------------------------*/
 
 .delivery{
-	padding: 140px 0 200px;
+	padding: 140px 0 116px;
 }
 .delivery .container{
 	position: relative;
@@ -482,6 +491,10 @@ dd{
 	box-shadow: 0px 35px 52px -26px #c53b37;
 	outline: none;
 	text-align: center;
+}
+.in-price:hover{
+	border: solid 2px #fff;
+	box-shadow: 0px 40px 55px -26px #c53b37;
 }
 .delivery-car{
 	position: absolute;
@@ -539,3 +552,4 @@ footer:after{
 }.ws{
 	background-image: url(../img/ico-ws.png);
 }
+
