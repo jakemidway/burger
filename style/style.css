@@ -121,6 +121,9 @@ header{
 	font-size: 20px;
 	margin-right: 27px;
 }
+.tel li:first-child{
+	white-space: nowrap;
+}
 .tel:before{
 	display: block;
 	content: "";
