@@ -57,6 +57,10 @@ header{
 	padding-top: 106px;
 	/*border: 1px dotted red;*/
 }
+.main-nav a:hover{
+	text-shadow: 0 1px 1px #fecf5a;	
+	/*text-decoration: underline;     не нужная херня*/
+}
 .header-top-wraper{
 	display: flex;
 	justify-content: space-between;
@@ -112,7 +116,7 @@ header{
 	padding-left: 36px;
 }
 .tel{
-	/*width: 184px;*/
+	width: 200px;
 	flex-basis: 184px;
 	font-size: 20px;
 	margin-right: 27px;
@@ -126,12 +130,13 @@ header{
 	margin-right: 10px;
 	background-image: url(../img/phone-call.png)
 }
-.call-back{
+.call-back {
 	display: block;
 	font-size: 16px;
 	color: #fecf5a;
 	padding-left: 36px;
 }
+
 .call-back:after{
 	display: block;
 	content: "";
