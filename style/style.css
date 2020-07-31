@@ -47,6 +47,10 @@ a{
 }
 button{
 	outline: none;
+	-moz-user-select: none; /* Mozilla Firefox */
+	-ms-user-select: none; /* Internet Explorer (не поддерживается) */
+	-o-user-select: none; /* Opera Presto (не поддерживается) */
+	-webkit-user-select: none; /* Google Chrome, Opera Next, Safari */
 }
 p{
 	margin: 0;
@@ -270,6 +274,10 @@ header{
 }
 .button-menu{
 	margin-bottom: 86px;
+	-moz-user-select: none; /* Mozilla Firefox */
+	-ms-user-select: none; /* Internet Explorer (не поддерживается) */
+	-o-user-select: none; /* Opera Presto (не поддерживается) */
+	-webkit-user-select: none; /* Google Chrome, Opera Next, Safari */
 }
 .button-menu ul{
 	display: flex;
