@@ -12,7 +12,11 @@ body{
 	font-size: 30px;
 	min-width: 1560px;
 	background-color: #121111;
-	background-image: url(../img/фон.png);
+	background-image:
+		url(../img/back-for-footer.png),
+		url(../img/фон.png);
+	background-position: center bottom, center top;
+	background-repeat: no-repeat, repeat-y;
 	color: #fff;
 }
 ul{
@@ -522,13 +526,6 @@ dd{
 	width: 100%;
 	height: 1px;
 	background-color: #b4aba1;
-}
-footer:after{
-	position: absolute;
-	width: 1920px;
-	height: 1434px;
-	background-image: url(../img/back-for-footer.png);
-	background-position: -100% 0;
 }
 .foot-wrap{
 	position: relative;
